@@ -6,7 +6,7 @@ import javax.swing.JMenuItem;
 public class HamburgerMenu extends JMenuBar {
 
     public HamburgerMenu() {
-        JMenu menu = new JMenu("=");
+        JMenu menu = new JMenu("☰");
 
         JMenuItem addcompany = new JMenuItem("Add a company");
         JMenuItem removecompany = new JMenuItem("Remove a company");
