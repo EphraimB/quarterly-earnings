@@ -14,10 +14,14 @@ public class HamburgerMenu extends JMenuBar {
         JMenuItem removecompany = new JMenuItem("Remove a company");
         
 
-
+        // Adds the options to the menu.
         menu.add(addcompany);
         menu.add(removecompany);
         
+        // Organize the menu options.
+        menu.addSeparator();
+
+        // Adds the completed hamburger menu to the menu bar.
         add(menu);
     }
     
